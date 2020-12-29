@@ -12,9 +12,9 @@ def predict_note_authentication(variance,skewness,curtosis,entropy):
                     
 def main():
     st.title("Bank Authenticator")
-    html_temp="""
+    html_temp = """
     <div style="background-color:orange;padding:10px">
-    <h2 style='color:white;text-align:center;">Streamlit Bank Authenticator App</h2>
+    <h2 style="color:white;text-align:center;">Streamlit Bank Authenticator App </h2>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
